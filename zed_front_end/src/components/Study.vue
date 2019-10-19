@@ -55,7 +55,7 @@ export default {
   methods: {
     getStudy(index) {
       console.log(index);
-      var testURL = "http://localhost:4270/api/StudyContents/" + index;
+      var testURL = "https://localhost:44364/api/StudyContents/" + index;
       axios
         .get(testURL, {
           mode: "no-cors"
